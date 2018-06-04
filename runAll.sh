@@ -12,7 +12,7 @@
 # Confirm Payroll test
 echo "Running Confirm Payroll"
 ./jmeter -n -t ~/workspace/jmeter-on-batch/src/PingDomain.jmx \
-  -JSERVERNAME=google.com -l /tmp/google.jtl -e -o /tmp/google
+  -JSERVERNAME=google.com -l repots/google.jtl -e -o reports/google
 
 # Publish to S3
 echo "Publising to S3"
